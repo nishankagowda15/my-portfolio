@@ -1,0 +1,106 @@
+.hero-section {
+  position: relative;
+  min-height: 80vh;
+  padding-top: 64px;
+  padding-bottom: 60px;
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,0.0) 55%, #ffffff 100%),
+    url("/assets/port1.jpg") center / cover no-repeat;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0.75),
+    rgba(255,255,255,0.4),
+    rgba(255,255,255,0.1)
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.hero-pill {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: #374151;
+}
+
+.hero-sub {
+  color: #6b7280;
+  max-width: 520px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #7c3aed, #a855f7);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(124, 58, 237, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 35px rgba(124, 58, 237, 0.45);
+  color: #fff;
+}
+
+.btn-outline {
+  background: rgba(255, 255, 255, 0.9);
+  color: #5b21b6;
+  padding: 12px 26px;
+  border-radius: 12px;
+  font-weight: 600;
+  border: 1px solid #ddd6fe;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.btn-outline:hover {
+  background: #ffffff;
+  border-color: #7c3aed;
+  transform: translateY(-2px);
+}
+
+#home {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding-top: 110px;        
+  padding-bottom: 60px;
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,0.0) 55%, #ffffff 100%),
+    url("/assets/port1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0 0 40px 40px;
+}
