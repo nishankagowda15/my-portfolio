@@ -125,3 +125,16 @@ body {
 section {
   margin-bottom: 50px;
 }
+.hero-section {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.0) 55%,
+      #ffffff 100%
+    ),
+    url("assets/port1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
